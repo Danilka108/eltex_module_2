@@ -82,8 +82,8 @@ int main(int argc, char *argv[]) {
 		}
 	}
 
-	printf("submet ips: %lf% \n", subnet_ips_count / (double)ips_count * 100);
-	printf("not submet ips: %lf% \n", (ips_count - subnet_ips_count) / (double)ips_count * 100);
+	printf("submet ips: %d, %lf% \n", subnet_ips_count, subnet_ips_count / (double)ips_count * 100);
+	printf("not submet ips: %d, %lf% \n", ips_count - subnet_ips_count, (ips_count - subnet_ips_count) / (double)ips_count * 100);
 
 	return 0;
 }
