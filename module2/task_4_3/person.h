@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#ifndef TASK_4_1_PERSON_H
-#define TASK_4_1_PERSON_H
+#ifndef TASK_4_3_PERSON_H
+#define TASK_4_3_PERSON_H
 
 #define CONTACTS_LIST_SIZE 50
 #define PROFILES_SIZE 5

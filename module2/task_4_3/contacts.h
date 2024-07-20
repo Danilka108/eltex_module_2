@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#ifndef TASK_4_3_LIST_H
-#define TASK_4_3_LIST_H
+#ifndef TASK_4_3_CONTACTS_H
+#define TASK_4_3_CONTACTS_H
 
 typedef struct node_t {
     person_t person;
